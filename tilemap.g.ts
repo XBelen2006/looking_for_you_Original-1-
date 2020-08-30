@@ -252,6 +252,8 @@ namespace myTiles {
     export const tile124 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile125 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile126 = image.ofBuffer(hex``);
 
 }
 // Auto-generated code. Do not edit.
