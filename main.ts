@@ -950,6 +950,7 @@ function Nivel_1 () {
         2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
         2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
         `, [myTiles.transparency16,myTiles.tile12,myTiles.tile11,myTiles.tile2,myTiles.tile6,myTiles.tile10,myTiles.tile15,myTiles.tile19,myTiles.tile26,myTiles.tile28,myTiles.tile31,myTiles.tile14,myTiles.tile43,myTiles.tile17,myTiles.tile18,myTiles.tile20,myTiles.tile23,myTiles.tile24,myTiles.tile44,myTiles.tile46,myTiles.tile48,myTiles.tile49,myTiles.tile35,myTiles.tile16,myTiles.tile27,myTiles.tile30,myTiles.tile32,myTiles.tile58,myTiles.tile59,myTiles.tile21,myTiles.tile22,myTiles.tile38,myTiles.tile50,myTiles.tile53,myTiles.tile54,myTiles.tile55,myTiles.tile60,myTiles.tile61,myTiles.tile62,sprites.builtin.brick,myTiles.tile64,myTiles.tile65,myTiles.tile40,myTiles.tile120,myTiles.tile121,myTiles.tile122,myTiles.tile123,myTiles.tile124,myTiles.tile125], TileScale.Sixteen))
+    effects.clouds.startScreenEffect()
     PREMIO12 = sprites.create(img`
         . . . . . . . f f f . . . . . . . . 
         . . . . . . f f d d f . . . . . . . 
@@ -2146,7 +2147,6 @@ let Caminar = 0
 let Prima_Nº1: Sprite = null
 Nivel_1()
 scene.setBackgroundColor(9)
-effects.clouds.startScreenEffect()
 Prima_Nº1 = sprites.create(img`
     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
