@@ -221,7 +221,7 @@ function Nivel_3 () {
     paleta_de_pintura.setPosition(721, 52)
     Enemigo3.vy = 60
     Enemigo3.setFlag(SpriteFlag.BounceOnWall, true)
-    info.startCountdown(40)
+    info.startCountdown(90)
     crearEnemyWoman()
     createPrima2()
 }
@@ -1068,7 +1068,7 @@ function Nivel_1 () {
     lapiz.setPosition(155, 88)
     PREMIO12.setPosition(1231, 266)
     microfono.setPosition(449, 266)
-    info.startCountdown(40)
+    info.startCountdown(90)
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Prima_Nº1.isHittingTile(CollisionDirection.Bottom)) {
@@ -1858,7 +1858,7 @@ function Nivel_2 () {
     PREMIO2.setPosition(175, 762)
     Enemigo2.vy = 60
     Enemigo2.setFlag(SpriteFlag.BounceOnWall, true)
-    info.startCountdown(40)
+    info.startCountdown(90)
 }
 function crearEnemyWoman () {
     EnemyWomanLife = 3
